@@ -38,7 +38,7 @@ jobs:
     - name: Terraform Plan output
       uses: actions/upload-artifact@v4
       with:
-        path: terraform-tfplan
+        path: tfplan
         name: tfplan       
 
 
